@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>John Oganda Orenge | Portfolio</title>
+	<style>
+		html{
+			scroll-behavior: smooth;
+		}
+		body{
+		font-family: Ariel;
+		margin: 0;
+		padding: 0;
+		line-height: 1.6;
+		background-color: ;
+		
+		}
+		header{
+			background: #333;
+			color: #fff;
+			padding: 5px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			text-align: center;
+			position: fixed;
+			width: 100%;
+
+
+		}
+		header .my-photo{
+			width: 80px;
+			height:80px;
+			border-radius: 50%;
+			object-fit: cover;
+			border: 2px solid cyan;
+			margin-top: 15px;
+		}
+		header nav a {
+			color: white;
+			margin-right: 15px;
+			text-decoration: none;
+		}
+		footer  img{
+			width: 30px;
+			height: 30px;
+			background-color: black;
+			border-radius: 50%;
+			margin: 2px;
+		}
+		footer img:hover{
+			width: 32PX;
+			transition: 1s;
+			height: 32PX;
+		}
+		.hero{
+			text-align: center;
+			height: 80vh;
+			padding: 100px 20px;
+			background: linear-gradient(to right, blue, lightblue, skyblue);
+		}
+		.hero h1{
+			font-size: 34px;
+			font-style: COURIER MONOSPACE;
+
+
+		}
+		.hero .btn {
+			display: inline-block;
+			margin-top: 10px;
+			padding: 10px 20px;
+			background: #333;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 4px;
+		}
+		.btn:hover{
+			background-color: blue;
+			transition: 1s;
+		}
+		section{
+			padding: 40px 20px;
+
+		}
+
+		.project h3{
+			text-align: center;
+			text-decoration: underline;
+		}
+		.project{
+			background-color: lightblue;
+			border-radius: 8px;
+			padding: 4px;
+
+		}
+		.project:hover{
+			transform: translateY(-10px);
+			transition: 1s;
+
+		}
+		 h2{
+			text-align: center;
+			text-decoration: underline;
+		}
+		.project-grid{
+			padding: 20px;
+			display: grid;
+			grid-template-columns: auto auto;
+			row-gap: 8px;
+			column-gap: 8px;
+
+		}
+
+		.social-links a{
+			margin: 0 10px;
+			text-decoration: none;
+			color: #fff;
+			font-size: 24px;
+		}
+		.social-links a:hover{
+			color: #00ff99;
+			}
+			.contact{
+				background-color: rgba(0, 0, 0, .1);
+			}
+			.formcontainer{
+				display: flex;
+				justify-content: center;
+				align-content: center;
+				height: 50VH;
+			}
+			form{
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				max-width: 450pX;
+				border: 1px black solid;
+				padding: 10px;
+			}
+			form input{
+				margin-bottom: 5px;
+				outline: none;
+				padding: 12px;
+				border-bottom: solid black 1px;
+				border-top: none;
+				border-right: none;
+				border-left: none;
+
+			}
+			textarea{
+				max-height: 100px;
+				width: 100%;
+				height: 100%;
+				min-height: 50px;
+				outline: none;
+
+				max-width: 450px;
+				min-width: 450px;
+
+
+			}
+			button{
+				margin-bottom: 5px;
+				outline: none;
+				padding: 12px;
+				border: solid black 1px;
+				padding: 10px;
+				margin-top: 8px;
+				border-radius: 10px;
+				background-color: lightblue;
+				
+			}
+			button:hover{
+				background-color: green;
+				transition: 1s;
+			}
+
+	
+		footer{
+			text-align: center;
+			padding: 10px;
+			background: #333;
+			display: flex;
+			justify-content: center;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img class="my-photo" src="my-photo.jpg" alt="JOHN OGANDA">
+		<div>
+		
+	</div>
+		<nav>
+			<a href="#about">About</a>
+			<a href="#projects">Projects</a>
+			<a href="#contact">Contact</a>
+		</nav>	
+		
+	</header>
+
+	<section class="hero">
+		<h1>Hi, I'm John Oganda</h1>
+		<p>Aspiring web Developer</p>
+		<a href="#projects" class="btn">View My Work</a>
+	</section>
+
+	<section id="about">
+		<h2>About Me</h2>
+		<p>I'm a passionate wev developer with a love for creating clean, user-friendly websites. I enjoy solving problems with code and turning ideas into real, working projets. With a focus on continuous learning, I'm always exploring new technologies to improve my skills and deliver better solutions.</p>
+		
+	</section>
+
+	<section id="projects">
+		<h2>Projects</h2>
+		<div class="project-grid">
+			<div class="project">
+				<h3>Responsive Personal</h3>
+				<p>This project is a responsive personal portfolio built using HTML and CSS. It showcase my skills, projects and contact information in a clean, modern layout. The site includes smooth scrolling navigation, an interactive project gallery, and a mobile-friendly design to ensure a great experience on all devices.</p>
+			</div>
+			<div class="project">
+				<h3>Task Manager</h3>
+				<p>This web app is a simple task manager designed to help users keep track of their daily to-do lists. Built with HTML, CSS and JavaScript, it allows users to add, delete and mark tasks as completed. The projects focuses on clean UI design, smooth user interactions and maintaining a lightweight, efficient codebase.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact">
+		<h2>Contact</h2>
+		<div class="formcontainer">
+		<form action="https://formsubmit.co/johnoganda75@gmail.com" action="post">
+			<input placeholder="Enter Name" type="name" name="Enter Name">
+			<input placeholder="Enter Email" type="email" name="Enter Email">
+			<textarea placeholder="Leave a comment" ></textarea>
+			<button>Submit</button>
+		</form>
+	</div>
+
+	</section>
+	<footer>
+		<div class="ft">
+		&copy; 2025 John Oganda. All rights reserved
+		<p>
+		<a href="https://wa.me/+254748900182" target="_blank"><img src="wa.jpg" alt="whatsapp"> </a>
+	    <a href="https://www.instagram.com/_inst.a_k.i.n.g_" target="_blank"><img src="ig.jpg" alt="ig"></a>
+	    <a href="https://twitter.com/hey_itsjohn" target="_blank"><img src="x.jpg" alt="x"></a>
+		</p>
+	</div>
+	</footer>
+
+
+</body>
+</html>
