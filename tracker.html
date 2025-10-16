@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Success Tracker</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0fdf4;
+      color: #065f46;
+      margin: 0;
+    }
+
+    header {
+      background-color: #10b981;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    h2 {
+      color: #047857;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .btn {
+      background-color: #10b981;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #059669;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #10b981;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Success Tracker</h1>
+    <p>Write it. Track it. Achieve it.</p>
+  </header>
+
+  <div class="container">
+    <h2>Your Goals</h2>
+    <form>
+      <label for="goals">Short-Term Goals:</label>
+      <textarea id="goals" rows="4"></textarea>
+
+      <label for="habits">Daily Habits to Build:</label>
+      <textarea id="habits" rows="4"></textarea>
+
+      <label for="gratitude">One Thing You're Grateful For Today:</label>
+      <input type="text" id="gratitude" />
+
+      <button class="btn" type="submit">Save Entry</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Ramsey | SimpleKeys for Success
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Financial Wisdom</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fefce8;
+      color: #713f12;
+      margin: 0;
+    }
+
+    header {
+      background-color: #ca8a04;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    nav {
+      background: #4a00e0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 16px;
+      transition: background 0.3s;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .section {
+      background-color: white;
+      padding: 20px;
+      border-left: 6px solid #ca8a04;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #ca8a04;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .quote {
+      background-color: #fef9c3;
+      border-left: 5px solid #eab308;
+      padding: 15px;
+      font-style: italic;
+      margin-top: 30px;
+      border-radius: 6px;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px !important;
+      margin-right: 23px;
+    }
+    .nav-links li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .nav-links li a:hover {
+      color: white;
+      transition: 0.5s;
+    }
+    .menu-icon {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    .menu-icon div {
+      width: 25px;
+      height: 3px;
+      background-color: black;
+      margin: 4px 0;
+    
+      background-color: black;
+      margin: 4px 0;
+    }
+    #menu-toggle {
+      display: none;
+    }
+    .logo{
+      color: aqua;
+    }
+    @media (max-width: 768px) {
+      .menu-icon {
+        display: flex;
+        margin-right: 40px;
+      }
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 120%;
+        background-color: lightblue;
+        margin-top: 10px;
+        padding: 10px 0;
+
+      }
+      #menu-toggle:checked + .menu-icon + .nav-links {
+        display: flex;
+        
+      }
+    }
+    .menu-icon {
+        display: flex;
+        margin-right: 40px;
+      }
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 120%;
+        background-color: lightblue;
+        margin-top: 10px;
+        padding: 10px 0;
+
+      }
+      #menu-toggle:checked + .menu-icon + .nav-links {
+        display: flex;
+        
+      }
+
+    footer {
+      background-color: #ca8a04;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Financial Wisdom✅ </h1>
+    <p>Make money work for your future, not just your fun.</p>
+  </header>
+  <nav>
+      <span class="logo">Real Talk With Ramsey</span>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+      <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="life.html">Life Guide</a></li>
+    <li><a href="quote.html">Quote</a></li>
+    <li><a href="check.html">Checklist</a></li>
+    <li><a href="mindset.html">Mindset</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="innovation.html">Innovation</a></li>
+    <li><a href="risk.html">Risk Taking</a></li>
+    <li><a href="goals.html">Goals</a></li>
+    <li><a href="mental.html">Mental Health</a></li>
+    <li><a href="books.html">Books to Read</a></li>
+    <li><a href="career.html">Career</a></li>
+    <li><a href="Leadership.html">Leadership</a></li>
+    <li><a href="feed.html">Feedback</a></li>
+    <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>💰 Why Financial Literacy Matters</h2>
+      <p>Understanding money helps you control your future. It gives you freedom, choices, and peace of mind. Don’t wait until you’re rich to manage money — start small now.</p>
+    </div>
+
+    <div class="section">
+      <h2>📉 Budgeting Basics</h2>
+      <ul>
+        <li>Track your spending (even small items)</li>
+        <li>Split your money: 50% needs, 30% wants, 20% savings</li>
+        <li>Have a budget notebook or use a free app</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📦 Smart Spending Habits</h2>
+      <ul>
+        <li>Don’t buy it unless you need it</li>
+        <li>Compare prices before buying</li>
+        <li>Practice “delayed buying” — wait 48 hours before spending on wants</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💹 Growing Your Money</h2>
+      <p>You don’t need a big job to start. Try:</p>
+      <ul>
+        <li>Selling unused items</li>
+        <li>Small saving challenges (like saving KSh 20 daily)</li>
+        <li>Learning digital skills and freelancing online</li>
+      </ul>
+    </div>
+
+    <div class="quote">
+      “Do not save what is left after spending, but spend what is left after saving.”  
+      <br>— Warren Buffett
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Ramsey | SimpleKeys for Success
+  </footer>
+
+</body>
+</html>
